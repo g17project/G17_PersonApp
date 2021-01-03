@@ -1,3 +1,38 @@
 <resources>
-    <string name="app_name">G17_Project1</string>
+    <string name="app_name">G17_Person</string>
+    <string name="film_db">Movie Database</string>
+    <string name="item_name">name</string>
+    <string name="item_genre">genre</string>
+    <string name="item_imdb">imdb</string>
+    <string name="item_lang">language</string>
+    <string name="person_info">Personal Information</string>
+    <string name="grad_deg">Graduation Degree</string>
+    Graduation Degree
+    //Add
+    <string name="add_new_person">Add New Movie</string>
+    <string name="add_name">Person Name</string>
+    <string name="add_age">Person Age</string>
+    <string name="add_gender">Person Gender</string>
+    <string name="add_dep">Person Department</string>
+    <string name="add_bplace">Person BPlace</string>
+
+
+    //Add Screen Button
+    <string name="button_add">ADD</string>
+    <string name="button_cancel">CANCEL</string>
+    <string name="button_done">DONE</string>
+    <string name="button_delete">DELETE</string>
+    <string name="button_edit">EDIT</string>
+    <string name="zoomIn">ZOOM +</string>
+    <string name="zoomOut">ZOOM -</string>
+
+    <string name="save_settings">Save Settings</string>
+    <string name="settings">Settings</string>
+
+    //checkbox
+    <string name="cbB">Bachelor\'s Degree</string>
+    <string name="cbM">Master\'s Degree (M.A, M.S,)</string>
+    <string name="cbD">Doctoral Degree (Ph. D.)</string>
+
+
 </resources>
