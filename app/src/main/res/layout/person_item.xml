@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="16dp">
+
+    <TextView
+        android:id="@+id/et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/add_name"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/et_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_name"
+        android:text="@string/add_age" />
+
+    <TextView
+        android:id="@+id/et_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_age"
+        android:text="@string/add_gender" />
+
+    <TextView
+        android:id="@+id/et_dep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_gender"
+        android:text="@string/add_dep" />
+
+    <TextView
+        android:id="@+id/et_bplace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_dep"
+        android:text="@string/add_bplace" />
+
+    <TextView
+        android:id="@+id/et_Degree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_bplace"
+        android:text="@string/cbB" />
+
+    <TextView
+        android:id="@+id/et_Degree1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_Degree"
+        android:text="@string/cbM" />
+
+    <TextView
+        android:id="@+id/et_Degree2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_Degree1"
+        android:text="@string/cbD" />
+
+
+</RelativeLayout>
